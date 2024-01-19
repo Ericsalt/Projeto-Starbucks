@@ -29,8 +29,7 @@ Projeto: Starbucks-Clone
 
 Este projeto consiste em uma replicação da página inicial do Starbucks, com o objetivo de aprimorar habilidades de desenvolvimento web, HTML, CSS e JavaScript. A estrutura do site segue de perto a interface original do Starbucks, Este projeto não tem vínculo oficial com o Starbucks, sendo desenvolvido exclusivamente para fins educacionais e práticos..
 
-- [Acesse o projeto finalizado, online]([https://ericsalt.github.io/Devlinks/]https://ericsalt.github.io/Projeto-Starbucks/])
-
+- [Acesse o projeto finalizado, online]([https://ericsalt.github.io/Projeto-Cordel/](https://ericsalt.github.io/Projeto-Starbucks/))
 
 ## :memo: Licença
 

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Starbucks</title>
+  </head>
+  <body>
+    <div class="circulo"></div>
+<img src="img/" alt="">
+    <img src="img/logo(1).png" alt="Logo Starbucks" class="logo" />
+    <div class="conteudo">
+      <div class="caixa-texto">
+        <h2>It's not just coffee it's <span>Starbucks</span></h2>
+        <p>
+          Fundada em Seattle em 1971, a empresa tornou-se um ícone da cultura do
+          café, oferecendo uma ampla variedade de bebidas meticulosamente
+          preparadas, desde os clássicos cafés espresso até inovações sazonais
+          irresistíveis.
+        </p>
+
+        <a href="//www.starbucksathome.com/br/cafes/c?gad_source=1&gclid=Cj0KCQiAtaOtBhCwARIsAN_x-3IBBBTcmXzG5ScQQvpxYkAITb4cjL3W1XJV6IPu1pkeUr1kZ-WmLJ4aAuv8EALw_wcB"
+        target="_blank">
+          <button>
+          
+              Acesse
+            
+          </button>
+        </a>
+      </div>
+      <div class="caixa-imagem">
+        <img src="img/img1.png" alt="Copo Starbucks" class="Starbucks" />
+      </div>
+    </div>
+    <div class="menu">
+      <img src="img/img-pequena1.png" alt="" class="copo-pequeno verde" />
+      <img src="img/img-pequena2.png" alt="" class="copo-pequeno amarelo" />
+      <img src="img/img-pequena3.png" alt="" class="copo-pequeno rosa" />
+    </div>
+
+  
+  </body>
+  <script>
+    let circulo = document.querySelector("circulo")
+    let imgCopo = document.querySelector(".Starbucks")
+    let verde = document.querySelector(".verde")
+    let amarelo = document.querySelector(".amarelo")
+    let rosa = document.querySelector(".rosa")
+     
+    amarelo.addEventListener("click", () => {
+      imgCopo.src = "./img/img2.png"
+    
+    })
+    verde.addEventListener("click", () => {
+      imgCopo.src = "./img/img1.png" 
+    })
+    rosa.addEventListener("click", () => {
+      imgCopo.src = "./img/img3.png"
+    })
+    
+   
+
+
+
+  </script>
+</html>

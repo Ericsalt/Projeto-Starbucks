@@ -35,3 +35,5 @@ Este projeto consiste em uma replicação da página inicial do Starbucks, com o
 
 Esse projeto está sob a licença MIT.
 
+Feito com ♥ by Eric Salgado
+
